@@ -1,6 +1,6 @@
 # Apple.com from 2014
 
->  Welcome to my first compleated github solo project. This is a clone/recreation of Apples homepage back in 2014. For flex, float and grid, color gradiance and background images embading practices. Comments are always welcome.   
+>  Welcome to my first completed GitHub solo project. This is a clone/recreation of Apple's homepage back in 2014. For flex, float and grid, color gradient and background images embedding. Comments are always welcome.   
 
 ![screenshot](./img/app_screenshot.png)
 
