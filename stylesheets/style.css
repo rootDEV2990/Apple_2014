@@ -3,13 +3,13 @@ body {
   font-family: "Spartan";
 }
 
-/*main section styleing start*/
-/*assistive tech intro*/
+/* main section styleing start */
+/* assistive tech intro */
 main article h5 {
 	display: none;
 }
 
-/*main slider*/
+/* main slider */
 
 #slider {
   background-image: url("../img/slider.jpg");
@@ -17,7 +17,7 @@ main article h5 {
   background-position: bottom;
 }
 
-/*main menu bar*/
+/* main menu bar */
 
 nav {
   display: flex;
@@ -87,7 +87,7 @@ main nav ul li {
   padding-top: .2rem;
 }
 
-/*search input*/
+/* search input */
 
 input {
   background: rgb(34,34,34);
@@ -114,7 +114,7 @@ input:hover {
   background-position: 5% 50%; 
 }
 
-/*main header*/
+/* main header */
 
 section {
   display: flex;
@@ -164,7 +164,7 @@ header a:nth-child(3) h2 {
 
 header a:nth-child(3) h2:hover {
   text-decoration: underline;
-} 
+}
 
 header a:nth-child(3) h2 span {
   height: 1rem;
@@ -177,7 +177,7 @@ header a:nth-child(3) h2 span {
   margin-top: -.2rem;
   padding-bottom: .8rem;
   padding-left: .2rem;
-} 
+}
 
 header a:nth-child(3) figure span {
   color: white;
@@ -194,8 +194,8 @@ header {
   justify-content: center;
 }
 
-/*main section styleing end*/
-/*featured sections styleing start*/
+/* main section styleing end */
+/* featured sections styleing start */
 
 aside {
   display: flex;
@@ -264,4 +264,4 @@ footer nav ul li:nth-child(7) {
   padding-right: 11rem;
 }
 
-/*footer site-map end*/
+/* footer site-map end */
