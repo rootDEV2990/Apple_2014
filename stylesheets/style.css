@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0rem;
   font-family: "Spartan";
 }
 
@@ -53,10 +53,10 @@ main nav ul li {
 
 #menubar ul {
   border-radius: .3rem;
-  padding: 0;
+  padding: 0rem;
   color: #fff;
   background: rgb(34, 34, 34);
-  background: linear-gradient(180deg, rgba(34 , 34, 34, 1) 5%, rgba(120, 120, 120, 1) 70%, rgba(173, 173, 173, 1) 100%);
+  background: linear-gradient(180deg, rgba(34, 34, 34, 1) 5%, rgba(120, 120, 120, 1) 70%, rgba(173, 173, 173, 1) 100%);
 }
 
 #menubar li a {
@@ -73,7 +73,7 @@ main nav ul li {
 }
 
 #menubar li:hover {
-  background: rgb(0,0,0);
+  background: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(34, 34, 34, 1) 100%);
 }
 
@@ -96,7 +96,7 @@ main nav ul li {
 /* search input */
 
 input {
-  background: rgb(34,34,34);
+  background: rgb(34, 34, 34);
   background: linear-gradient(180deg, rgba(34, 34, 34, 0.9) 5%, rgba(120, 120, 120, 0.7) 70%, rgba(173, 173, 173, 1) 100%);
   border: 1px solid #222;
   margin: .3rem;
@@ -137,9 +137,9 @@ header a #main-title {
   font-weight: 200;
   text-align: center;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 0rem;
   text-decoration: none;
-  margin-top: 0;
+  margin-top: 0rem;
 }
 
 header a p {
@@ -210,8 +210,8 @@ aside {
 }
 
 aside figure {
-  padding: 0;
-  margin: 0;
+  padding: 0rem;
+  margin: 0rem;
   width: 25%;
 }
 
@@ -264,7 +264,7 @@ footer nav ul {
 }
 
 footer nav li {
-  padding: 0.5rem .2rem 0;
+  padding: 0.5rem .2rem 0rem;
   font-size: .6rem;
   font-weight: 500;
 }
