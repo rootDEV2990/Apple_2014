@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Spartan", "Helvetica";
+  font-family: "Spartan", Helvetica;
 }
 
 /* main section styleing start */
@@ -133,7 +133,7 @@ section header {
 
 header a #main-title {
   font-size: 3rem;
-  font-family: "Spartan", "Helvetica";
+  font-family: "Spartan", Helvetica;
   font-weight: 200;
   text-align: center;
   color: #fff;
@@ -144,7 +144,7 @@ header a #main-title {
 
 header a p {
   font-size: 1.6rem;
-  font-family: "Spartan", "Helvetica";
+  font-family: "Spartan", Helvetica;
   font-weight: 400;
   color: #fff;
   padding-right: 14rem;
@@ -154,7 +154,7 @@ header a p {
 
 header a h2 {
   font-size: 1.6rem;
-  font-family: "Spartan", "Helvetica";
+  font-family: "Spartan", Helvetica;
   font-weight: 400;
   color: #fff;
   padding-right: 14rem;
