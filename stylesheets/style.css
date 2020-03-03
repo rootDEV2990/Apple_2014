@@ -59,10 +59,6 @@ main nav ul li {
   background: linear-gradient(180deg, rgba(34, 34, 34, 1) 5%, rgba(120, 120, 120, 1) 70%, rgba(173, 173, 173, 1) 100%);
 }
 
-header a {
-  text-decoration: none;
-}
-
 #menubar li a {
   color: white;
   text-decoration: none;
