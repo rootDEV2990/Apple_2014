@@ -52,7 +52,7 @@ main nav ul li {
 }
 
 #menubar ul {
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   padding: 0;
   color: #fff;
   background: rgb(34, 34, 34);
@@ -67,9 +67,9 @@ main nav ul li {
 #menubar li {
   border: 1px #222 solid;
   line-height: 25px;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
   font-weight: 600;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 #menubar li:hover {
@@ -78,9 +78,9 @@ main nav ul li {
 }
 
 #menubar ul li:nth-child(1) {
-  border-top-left-radius: .3rem;
-  border-bottom-left-radius: .3rem;
-  padding-top: .5rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  padding-top: 0.5rem;
 }
 
 #menubar img {
@@ -88,9 +88,9 @@ main nav ul li {
 }
 
 #menubar ul li:nth-child(9) {
-  border-top-right-radius: .3rem;
-  border-bottom-right-radius: .3rem;
-  padding-top: .2rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  padding-top: 0.2rem;
 }
 
 /* search input */
@@ -99,7 +99,7 @@ input {
   background: rgb(34, 34, 34);
   background: linear-gradient(180deg, rgba(34, 34, 34, 0.9) 5%, rgba(120, 120, 120, 0.7) 70%, rgba(173, 173, 173, 1) 100%);
   border: 1px solid #222;
-  margin: .3rem;
+  margin: 0.3rem;
   border-radius: 25px;
   height: 1.8rem;
   background-image: url("../img/search.png");
@@ -178,10 +178,10 @@ header a:nth-child(3) h2 span {
   border: 2px white solid;
   border-radius: 50px;
   display: inline-block;
-  margin-left: .3rem;
-  margin-top: -.2rem;
-  padding-bottom: .8rem;
-  padding-left: .2rem;
+  margin-left: 0.3rem;
+  margin-top: -0.2rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.2rem;
 }
 
 header a:nth-child(3) figure span {
@@ -239,7 +239,7 @@ footer section {
 }
 
 footer section h2 {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 200;
   padding-left: 11rem;
 }
@@ -259,8 +259,8 @@ footer nav ul {
 }
 
 footer nav li {
-  padding: 0.5rem .2rem 0;
-  font-size: .6rem;
+  padding: 0.5rem 0.2rem 0;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 
