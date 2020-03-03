@@ -112,8 +112,9 @@ input:hover {
   padding-left: 1.8rem;
   background-image: url("../img/search.png");
   background-size: 1rem 1rem;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 5% 50%; 
+  
 }
 
 /* main header */
@@ -215,9 +216,9 @@ figure img {
   width: 100%;
 }
 
-/*featured sections styleing end*/
+/* featured sections styleing end */
 
-/*footer styleing start*/
+/* footer styleing start */
 
 footer {
   display: grid;
@@ -232,7 +233,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/*footer promo start*/
+/* footer promo start */
 
 footer section {
   display: inline-block;
@@ -245,9 +246,9 @@ footer section h2 {
   padding-left: 11rem;
 }
 
-/*footer promo end*/
+/* footer promo end */
 
-/*footer site-map start*/
+/* footer site-map start */
 
 footer nav {
   display: inline-block;
