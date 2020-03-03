@@ -159,7 +159,8 @@ header a h2 {
 header a:nth-child(3) h2 {
   font-size: 1.3rem;
   font-weight: 400;
-} 
+}
+
 
 header a:nth-child(3) h2:hover {
   text-decoration: underline;
