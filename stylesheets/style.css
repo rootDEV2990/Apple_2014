@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Spartan, Helvetica;
+  font-family: "Spartan", sans-serif;
 }
 
 /* main section styleing start */
@@ -38,6 +38,16 @@ main nav ul {
   min-width: 1000px;
 }
 
+footer nav ul li:nth-child(7) {
+  padding-right: 11rem;
+}
+
+footer nav li {
+  padding: 0.5rem 0.2rem 0;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
 main nav ul li {
   list-style-type: none;
   width: 100%;
@@ -51,12 +61,30 @@ main nav ul li {
   left: 50%;
 }
 
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
 #menubar ul {
   border-radius: 0.3rem;
   padding: 0;
   color: #fff;
   background: rgb(34, 34, 34);
   background: linear-gradient(180deg, rgba(34, 34, 34, 1) 5%, rgba(120, 120, 120, 1) 70%, rgba(173, 173, 173, 1) 100%);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+section header a {
+  text-decoration: none;
 }
 
 #menubar li a {
@@ -81,6 +109,10 @@ main nav ul li {
   border-top-left-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
   padding-top: 0.5rem;
+}
+
+figure img {
+  width: 100%;
 }
 
 #menubar img {
@@ -126,18 +158,20 @@ section {
   display: flex;
 }
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 section header {
   align-self: center;
   margin: 1% auto 1%;
 }
 
-section header a {
-  text-decoration: none;
-}
-
 header a #main-title {
   font-size: 3rem;
-  font-family: Spartan, Helvetica;
+  font-family: "Spartan", sans-serif;
   font-weight: 200;
   text-align: center;
   color: #fff;
@@ -148,7 +182,7 @@ header a #main-title {
 
 header a p {
   font-size: 1.6rem;
-  font-family: Spartan, Helvetica;
+  font-family: "Spartan", sans-serif;
   font-weight: 400;
   color: #fff;
   padding-right: 14rem;
@@ -158,12 +192,18 @@ header a p {
 
 header a h2 {
   font-size: 1.6rem;
-  font-family: Spartan, Helvetica;
+  font-family: "Spartan", sans-serif;
   font-weight: 400;
   color: #fff;
   padding-right: 14rem;
   padding-left: 14rem;
   text-align: center;
+}
+
+footer section h2 {
+  font-size: 0.7rem;
+  font-weight: 200;
+  padding-left: 11rem;
 }
 
 header a:nth-child(3) h2 {
@@ -193,12 +233,6 @@ header a:nth-child(3) figure span {
   font-weight: 300;
 }
 
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 /* main section styleing end */
 
 /* featured sections styleing start */
@@ -214,10 +248,6 @@ aside figure {
   width: 25%;
 }
 
-figure img {
-  width: 100%;
-}
-
 /* featured sections styleing end */
 
 /* footer styleing start */
@@ -227,25 +257,11 @@ footer {
   grid-template-columns: 50% 50%;
 }
 
-footer a {
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
 /* footer promo start */
 
 footer section {
   display: inline-block;
   padding-top: 1rem;
-}
-
-footer section h2 {
-  font-size: 0.7rem;
-  font-weight: 200;
-  padding-left: 11rem;
 }
 
 /* footer promo end */
@@ -254,20 +270,4 @@ footer section h2 {
 
 footer nav {
   display: inline-block;
-}
-
-footer nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-
-footer nav li {
-  padding: 0.5rem 0.2rem 0;
-  font-size: 0.6rem;
-  font-weight: 500;
-}
-
-footer nav ul li:nth-child(7) {
-  padding-right: 11rem;
 }
