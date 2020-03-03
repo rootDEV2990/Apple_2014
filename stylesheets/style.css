@@ -4,7 +4,9 @@ body {
 }
 
 /* main section styleing start */
+
 /* assistive tech intro */
+
 main article h5 {
 	display: none;
 }
@@ -50,7 +52,7 @@ main nav ul li {
   padding: 0 ;
   color: #fff;
   background: rgb(34,34,34);
-  background: linear-gradient(180deg, rgba(34,34,34,1) 5%, rgba(120,120,120,1) 70%, rgba(173,173,173,1) 100%); 
+  background: linear-gradient(180deg, rgba(34,34,34,1) 5%, rgba(120,120,120,1) 70%, rgba(173,173,173,1) 100%);
 }
 
 #menubar li a {
@@ -58,17 +60,17 @@ main nav ul li {
   text-decoration: none;
 }
 
-#menubar li:hover {
-  background: rgb(0,0,0);
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%); 
-}
-
-#menubar li{
+#menubar li {
   border:1px #222222 solid;
   line-height: 25px;
   padding-top: .7rem;
   font-weight: 600;
   font-size: .8rem;
+}
+
+#menubar li:hover {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
 }
 
 #menubar ul li:nth-child(1) {
@@ -195,6 +197,7 @@ header {
 }
 
 /* main section styleing end */
+
 /* featured sections styleing start */
 
 aside {
@@ -213,6 +216,7 @@ figure img {
 }
 
 /*featured sections styleing end*/
+
 /*footer styleing start*/
 
 footer {
@@ -242,6 +246,7 @@ footer section h2 {
 }
 
 /*footer promo end*/
+
 /*footer site-map start*/
 
 footer nav {
