@@ -61,7 +61,7 @@ main nav ul li {
 }
 
 #menubar li {
-  border:1px #222222 solid;
+  border:1px #222 solid;
   line-height: 25px;
   padding-top: .7rem;
   font-weight: 600;
@@ -94,7 +94,7 @@ main nav ul li {
 input {
   background: rgb(34,34,34);
   background: linear-gradient(180deg, rgba(34,34,34,0.9) 5%, rgba(120,120,120,0.7) 70%, rgba(173,173,173,1) 100%);
-  border:1px solid #222222;
+  border:1px solid #222;
   margin: .3rem;
   border-radius: 25px;
   height: 1.8rem;
